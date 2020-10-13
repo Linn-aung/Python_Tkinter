@@ -14,7 +14,7 @@ class Login:
         
         #Background Image
         
-        self.bg=ImageTk.PhotoImage(file="images/pexels-photo-1445416.jpeg")
+        self.bg=ImageTk.PhotoImage(file="assets/pexels-photo-1445416.jpeg")
         self.bg_image=Label(self.root,image=self.bg).place(x=0,y=0,relwidth=1,relheight=1)
         
         
